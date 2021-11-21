@@ -1,0 +1,42 @@
+.more-screen .icon-row{
+	margin-top: 35px;
+}
+.icon-row2{
+	justify-content:space-evenly;
+}
+.more-suggestions{
+	margin-top:50px;
+	border-top:1px solid rgba(0,0,0,0.4);
+	padding-top:40px;
+}
+.more-suggestions__tittle{
+	margin-bottom:30px;
+}
+
+.more-suggestions__icons{
+	display:flex;
+	    /* main axis랑 cross axis랑 바꿔줌 */
+      /* main axis */
+}
+.more-suggestions__icon{
+	display:flex;
+	margin-right:30px;
+	flex-direction:column;
+	align-items:center;
+	
+}
+.more-suggestions__icon-image{
+	width:60px;
+	height:60px;
+	background-color:var(--yellow);
+	border-radius:10px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-bottom:10px;
+	
+}
+.more-suggestions__icon-image i{
+	font-size:32px;
+	color: white;
+}

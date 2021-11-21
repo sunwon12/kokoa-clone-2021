@@ -1,0 +1,13 @@
+.icon-row{
+	display:flex;
+	justify-content:space-between;
+	padding-bottom:10px;
+}
+.icon-row__icon{
+	display:flex;
+	flex-direction: column;    /* main axis랑 cross axis랑 바꿔줌 */
+	align-items: center;      /* main axis */
+}
+.icon-row__icon i{
+	margin-bottom:25px;
+}
